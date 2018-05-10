@@ -1,0 +1,25 @@
+.default-pd{
+	padding: 15px;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+ul{
+	padding: 0;
+}
+.left-div ul li{
+	background-color: #9b59b6;
+	color: #fff;
+	margin: 5px 0;
+	padding: 10px;
+}
+.left-div ul li:hover{
+	background-color: #28a745;
+	cursor: pointer;
+}
+.right-div{
+	height: 300px;
+	color: #fff;
+}
