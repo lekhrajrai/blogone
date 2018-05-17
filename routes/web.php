@@ -19,3 +19,7 @@ Route::get('contact','ContactController@index');
 Route::get('add','ContactController@add');
 
 Route::post('store','ContactController@save');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
